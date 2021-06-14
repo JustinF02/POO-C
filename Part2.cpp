@@ -179,9 +179,5 @@ int main()
     cout << "\nMethode de concatenation : \n";
     Chaine v8(0);           //concat
     v8 = v4.concat(v7);
-
-    cout << "---------------------------Vecteur 9---------------------------" << endl;
-    Chaine v9(string1);
-    v9.affiche();
     cout << "\n--------------------------Destructeurs-------------------------\n";
 }
